@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  background-image: url("./Components/bg.jpg");
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+table{
+  border: 1px solid black;
+  border-style: groove;
+  align-items: center; 
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 2;
+  padding-right: 2;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+th{
+  border: 1px solid black;
+  border-style: groove;
+  align-items: center; 
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 2;
+  padding-right: 2;
+}
+
+td{
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 40px;
+  border: 1px solid black;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+table.center {
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+p {
+  text-align: center;} 
+
+.btnpanel{
+  border: 100px goldenrod;
+  padding: 15px;
+  background-color: rgba(69, 92, 16, 0.277);
+  text-align: center;
+  top: 50%;
+  left: 50%;
+}
+
+recpbtn{
+  padding-left: 5%;
+}
+
+btn{
+  margin-right: 5%;
+  margin-left: 5%; 
+}
+
+.button_1{
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.button_recep {
+  position: absolute;
+  top: 20%;
+  -ms-transform: translateY(50%);
+  transform: translateY(50%);
+}
+
+.form-row {
+  padding-left: 2%;
+}
+
+.form-group{
+  padding-left: 4%;
+}
+
+.footer {
+  position:absolute;
+  bottom:0;
+  width:100%;
+  height:60px;   /* Height of the footer */
+  background:#6cf;
+}
+
+.button_1 {
+  padding: 15px 15px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #7fb51c;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px rgb(154, 223, 43);
+}
+
+.button_1:hover {background-color: #386e377f}
+
+.button_1:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
